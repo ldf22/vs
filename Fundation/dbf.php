@@ -22,7 +22,6 @@ class dbf{
         catch (PDOException $e){
             echo "Errore: " . $e->getMessage();
         }   
-        //return true;
         return $this->db;
     }
 }
